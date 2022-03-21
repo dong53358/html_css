@@ -1,0 +1,33 @@
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: RGB(255, 99, 71);
+  overflow: hidden;
+}
+.box {
+  background-color: RGB(245, 222, 179);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 500px;
+  border: 5px solid black;
+}
+.small {
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: teal;
+  border: 5px solid white;
+}
+.middle {
+  margin: 20px;
+  width: 400px;
+  height: 100px;
+  background-color: teal;
+  border: 5px dashed white;
+}
