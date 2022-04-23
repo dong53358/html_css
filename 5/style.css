@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #00c6ae;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.playlist {
+  background-color: #ffffff;
+  width: 410px;
+  height: 880px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 30px 30px;
+}
+.playlist_header {
+  display: flex;
+  align-items: center;
+}
+
+.playlist_header i {
+  font-size: 30px;
+  font-weight: 600;
+  margin-right: 110px;
+}
+
+.playlist_header_title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.playlist_introduce {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.playlist_introduce i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  margin-right: 20px;
+  background-color: #ffbd11;
+  border-radius: 20px;
+  border: 4px solid black;
+  font-size: 80px;
+  color: white;
+}
+
+.playlist_introduce_content {
+  display: flex;
+  flex-direction: column;
+  line-height: 45px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.playlist_introduce_content span:first-child {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.playlist_introduce_content span:last-child {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.playlist_button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.playlist_button div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 180px;
+  border-radius: 20px;
+  border: 4px solid black;
+  border-bottom-width: 8px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.playlist_button div:first-child span:first-child {
+  margin-right: 20px;
+}
+
+.playlist_button div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+  border-radius: 35px;
+  border: 4px solid black;
+  border-bottom-width: 8px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.playlist_button div:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+  border-radius: 35px;
+  border: 4px solid black;
+  border-bottom-width: 8px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.playlist_music {
+  display: flex;
+  align-items: center;
+}
+
+.playlist_music_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.playlist_music_square {
+  diplay: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+  margin-right: 20px;
+}
+.playlist_music_square img {
+  height: 70px;
+  width: 70px;
+  border: 4px solid black;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+
+.playlist_music_content_title {
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.playlist_music_content_singer {
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 0.6;
+}
